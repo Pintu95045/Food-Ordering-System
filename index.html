@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul class="quick-links">
+                    <h3>Quick Links</h3>
+                    <li><a href="#">1. Home</a></li>
+                    <li><a href="#">2. Your Orders</a></li>
+                    <li><a href="#">3. Wallet</a></li>
+                    <li><a href="#">4. Profile</a></li>
+                    <li><a href="#">5. Logout</a></li>
+                </ul>
+                <ul class="more-about-us">
+                    <h3>More About Us</h3>
+                    <li><a href="#">1. Our Blog</a></li>
+                    <li><a href="#">2. Upcoming Dishes</a></li>
+                    <li><a href="#">3. Our Story</a></li>
+                    <li><a href="#">4. Social Media Links</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+            <header>
+                <input type="text" placeholder="Search Food Item">
+                <div class="auth-buttons">
+                    <button class="btn signup">Sign Up</button>
+                    <button class="btn login">Login</button>
+                </div>
+            </header>
+            <section class="banner">
+                <img src="banner.png" alt="Banner">
+            </section>
+            <section class="menu">
+                <h2>Menu</h2>
+                <div class="food-items" id="food-items">
+                    <!-- Food items will be inserted here by JavaScript -->
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

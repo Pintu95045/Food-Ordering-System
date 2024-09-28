@@ -1,0 +1,39 @@
+Restaurant Website Documentation
+Summary
+This repository contains a fully functional restaurant website designed to provide users with an attractive and user-friendly interface for exploring the restaurant's menu and services. Built using HTML, CSS, and JavaScript, this project focuses on delivering an optimal experience for customers, highlighting the restaurant's offerings while ensuring easy navigation.
+
+Table of Contents
+Project Overview
+Technologies Used
+Features
+Installation
+Usage
+Project Overview
+This restaurant website is designed with a modern look and feel, featuring a black background with white text. Key sections include a logo area, a menu display, and a search functionality for users to easily find their favorite dishes.
+
+Technologies Used
+HTML
+CSS
+JavaScript
+Features
+Responsive design for mobile and desktop users
+User-friendly navigation
+Attractive UI with a focus on user experience
+Search bar for quick access to menu items
+Clear presentation of food items with images and descriptions
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+bash
+Copy code
+git clone <repository-url>
+Navigate to the project directory:
+bash
+Copy code
+cd restaurant-website
+Open index.html in your preferred web browser.
+Usage
+Navigate through the sidebar for different sections.
+Use the search bar at the top to filter menu items.
+Click on food items to see more details.
